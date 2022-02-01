@@ -8,6 +8,7 @@
 header{
     background-color: cornflowerblue;
     padding: 5px;
+    margin: 0;
 }
 
 .barra{
@@ -16,7 +17,7 @@ header{
     display: flex;
     text-align: center;
     padding: 10px;
-    color:black;
+
 }
 
 .logo{
@@ -43,4 +44,42 @@ a input{
 .menu a:hover{
     color: white;
     transition: 0.15s;
+}
+
+/*section center*/
+
+section{
+    display: inline-block;
+    width: 100%;
+    background-color: #59ceff;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.name{
+    width: 100%;
+    text-align: center;
+}
+
+.aling{
+    display: flex;
+    margin-top: 13%;
+    transform: translateY(-50%);
+}
+
+.texts{
+    background-color: #efefef;
+    border: 1px solid black;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+}
+
+.texts:hover{
+    transition: 0.2s;
+    transform: scale(1.05);
 }
