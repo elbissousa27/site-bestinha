@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+.barra{
+    max-width: 1100px;
+    margin: 10px auto;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    color:black;
+}
+
+.logo{
+   font-size: 20px;
+   color: #59ceff;
+}
+
+.menu{
+    text-align: right;
+    width: 100%;
+    padding: 8px;
+}
+
+.menu a{
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+a input{
+    border-radius: 15px;
+    
+}
+
+.menu a:hover{
+    color: white;
+    transition: 0.15s;
+}
